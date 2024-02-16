@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "tailwind": "tailwindcss -i ./resources/css/tailwind/input.css -o ./resources/css/tailwind/output.css --watch"
+    },
+    "devDependencies": {
+        "axios": "^1.6.4",
+        "laravel-vite-plugin": "^1.0.0",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@inertiajs/progress": "^0.2.7",
+        "@inertiajs/vue3": "^1.0.14",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "vue": "^3.4.19",
+        "vue-loader": "^17.4.2",
+        "sweetalert2": "^11.4.17"
+    }
+}
